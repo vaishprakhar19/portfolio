@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 import "./navbar.css";
 
 
@@ -10,10 +10,10 @@ function Navbar() {
         Portfolio
       </div>
       <div className='navlinks'>
-        <Link to="/" className="navlink">Home</Link>
-        <Link to="/" className="navlink">About</Link>
-        <Link to="/" className="navlink">Skills</Link>
-        <Link to="/" className="navlink">Contacts</Link>
+        <a href="#" className="navlink">Home</a>
+        <a href="#" className="navlink">About</a>
+        <a href="#" onClick={scrollTo(sectionRef)} className="navlink">Skills</a>
+        <a href="#" className="navlink">Contacts</a>
       </div>
     </div>
   )

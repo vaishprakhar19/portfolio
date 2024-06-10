@@ -1,7 +1,7 @@
 .home {
     /* width: 100vw; */
-    height: calc(100vh - 90px) !important; 
-    color:white;
+    height: calc(100vh - 90px) !important;
+    color: white;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -9,8 +9,8 @@
     padding: 0px 10%;
 }
 
-.info{
-    width:50%;
+.info {
+    width: 50%;
     height: 85%;
     display: flex;
     flex-direction: column;
@@ -19,25 +19,25 @@
     padding-bottom: 40px;
 }
 
-.profile{
+.profile {
     height: 30vw;
     filter: drop-shadow(0px 0px 20px aqua);
 }
 
-.heading{
+.heading {
     margin: 0;
     padding: 0;
-    font-size:50px;
+    font-size: 50px;
     color: aqua;
 }
 
-.sub-heading{
+.sub-heading {
     font-size: 20px;
     display: inline;
     margin-bottom: 20px;
 }
 
-.hexagon{
+.hexagon {
     height: 50px;
     width: 50px;
     background-color: aqua;
@@ -48,29 +48,75 @@
     align-items: center;
     justify-content: center;
     font-size: 25px;
-    color:rgb(11, 35, 51);
-    transition:0.2s;
+    color: rgb(11, 35, 51);
+    transition: 0.2s;
 }
 
-.hexagon:hover{
-    transform: translate(-1px,-1px);
+.hexagon:hover {
+    transform: translate(-1px, -1px);
 }
 
-.resume-button{
-    width:150px;
-    min-height:40px;
-    font-size: 16px;
-    color:rgb(11, 35, 51);
-    background-color: aqua;
-    border: 2px solid aqua;
-    border-radius: 10px;
-    margin-top: 70px;
+.cssbuttons-io {
+    position: relative;
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 18px;
+    letter-spacing: 0.05em;
+    border-radius: 0.8em;
     cursor: pointer;
+    border: none;
+    background: linear-gradient(to right, #003cff, #000dbd);
+    color: ghostwhite;
+    overflow: hidden;
+    transition: all 0.05s;
 }
 
-.social-media{
+.cssbuttons-io svg {
+    width: 1.2em;
+    height: 1.2em;
+    margin-right: 0.5em;
+}
+
+.cssbuttons-io span {
+    position: relative;
+    z-index: 10;
+    transition: color 0.4s;
+    display: inline-flex;
+    align-items: center;
+    padding: 0.8em 1.2em 0.8em 1.05em;
+}
+
+.cssbuttons-io::before,
+.cssbuttons-io::after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+}
+
+.cssbuttons-io::before {
+    content: "";
+    background: #000;
+    width: 120%;
+    left: -10%;
+    transform: skew(30deg);
+    transition: transform 0.4s cubic-bezier(0.3, 1, 0.8, 1);
+}
+
+.cssbuttons-io:hover::before {
+    transform: translate3d(100%, 0, 0);
+}
+
+.cssbuttons-io:active {
+    transform: scale(0.97);
+}
+
+
+.social-media {
     margin-top: 80px;
     display: flex;
-    gap:20px;
+    gap: 20px;
     align-items: center;
 }
