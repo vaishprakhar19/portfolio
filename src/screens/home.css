@@ -1,12 +1,11 @@
 .home {
     /* width: 100vw; */
-    height: calc(100vh - 90px) !important;
     color: white;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 0px 10%;
+
 }
 
 .info {

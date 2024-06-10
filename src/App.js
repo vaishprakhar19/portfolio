@@ -9,8 +9,8 @@ function App() {
   return (
     <div className="App">
       <Navbar/>
-      <Home />
-      <Skills />
+      <Home id="home"/>
+      <Skills id="skills" />
       {/* <BrowserRouter>
         <Routes>
           <Route path="/" Component={Home} />

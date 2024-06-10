@@ -12,7 +12,7 @@ function Navbar() {
       <div className='navlinks'>
         <a href="#" className="navlink">Home</a>
         <a href="#" className="navlink">About</a>
-        <a href="#" onClick={scrollTo(sectionRef)} className="navlink">Skills</a>
+        <a href="#skills" className="navlink">Skills</a>
         <a href="#" className="navlink">Contacts</a>
       </div>
     </div>

@@ -7,7 +7,7 @@ import { HiOutlineDocumentText } from "react-icons/hi2";
 
 function Home() {
     return (
-        <div className='home'>
+        <div className='home section'>
             <div className='info'>
                 <div><p className="sub-heading">Hello</p><p className="sub-heading" style={{ color: "aqua" }}> I'm</p></div>
                 <h1 className="heading">Prakhar Vaish</h1>
