@@ -1,6 +1,6 @@
 import React from 'react';
 import './home.css';
-import profilePic from '../resources/profile.png';
+import profilePic from '../resources/profilepic2.png';
 import { FaLinkedin, FaGithub } from "react-icons/fa";
 import { IoMdMail } from "react-icons/io";
 import { HiOutlineDocumentText } from "react-icons/hi2";
