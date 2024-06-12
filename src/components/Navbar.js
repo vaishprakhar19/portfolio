@@ -13,7 +13,7 @@ function Navbar() {
         <a href="#" className="navlink">Home</a>
         <a href="#" className="navlink">About</a>
         <a href="#skills" className="navlink">Skills</a>
-        <a href="#" className="navlink">Contacts</a>
+        <a href="#contact" className="navlink">Contact</a>
       </div>
     </div>
   )
