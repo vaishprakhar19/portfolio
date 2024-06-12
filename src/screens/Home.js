@@ -4,6 +4,7 @@ import profilePic from '../resources/profilepic2.png';
 import { FaLinkedin, FaGithub } from "react-icons/fa";
 import { IoMdMail } from "react-icons/io";
 import { HiOutlineDocumentText } from "react-icons/hi2";
+import Typewriter from 'typewriter-effect';
 
 function Home() {
     return (
@@ -11,7 +12,15 @@ function Home() {
             <div className='info'>
                 <div><p className="sub-heading">Hello</p><p className="sub-heading" style={{ color: "aqua" }}> I'm</p></div>
                 <h1 className="heading">Prakhar Vaish</h1>
-                <h3 className="sub-heading">Frontend Web Developer</h3>
+                <h3 className="sub-heading">
+                    <Typewriter
+                        options={{
+                            strings: ['Frontend Developer', 'Software Developer','Web Developer'],
+                            autoStart: true,
+                            loop: true,
+                        }}
+                    /></h3>
+
                 <p>I'm a passionate web developer with a knack for crafting user-friendly and visually applealing websites, currently learning full stack.</p>
                 <button class="cssbuttons-io">
                     <span>

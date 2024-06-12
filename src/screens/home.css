@@ -37,6 +37,7 @@
     font-size: 20px;
     display: inline;
     margin-bottom: 20px;
+    color: white;
 }
 
 .hexagon {
@@ -59,6 +60,7 @@
 }
 
 .cssbuttons-io {
+    width:15em;
     position: relative;
     font-family: inherit;
     font-weight: 500;
@@ -91,7 +93,7 @@
 .cssbuttons-io::before,
 .cssbuttons-io::after {
     position: absolute;
-    top: 0;
+    top: 0px;
     left: 0;
     width: 100%;
     height: 100%;
