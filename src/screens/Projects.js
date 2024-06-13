@@ -1,6 +1,6 @@
 import React from 'react';
 import "./projects.css";
-import projectsData from '../components/projects.json'; 
+import projectsData from '../components/projects.json';
 import profileimage from '../resources/profile.png'
 
 const Projects = () => {
@@ -12,19 +12,19 @@ const Projects = () => {
             <div className='projects-container'>
                 {projectsData.map(project => (
                     <div key={project.id} className="project">
-                        <a href={project.link} target="_new">
+                        <a href={project.link} target="_new" className='hyperlink'>
                             <img src={profileimage} className="project-image" alt={project.heading} />
+                            <div className="tech-stack-container">
+                                {project.techStack.map((tech, index) => (
+                                    <span key={index} className="tech-stack">{tech}</span>
+                                ))}
+                            </div>
+                            <div className="project-info">
+                                <div className="project-heading">{project.heading}</div>
+                                <div className="project-date">{project.date}</div>
+                                <div className="project-detail">{project.detail}</div>
+                            </div>
                         </a>
-                        <div className="tech-stack-container">
-                            {project.techStack.map((tech, index) => (
-                                <span key={index} className="tech-stack">{tech}</span>
-                            ))}
-                        </div>
-                        <div className="project-info">
-                            <div className="project-heading">{project.heading}</div>
-                            <div className="project-date">{project.date}</div>
-                            <div className="project-detail">{project.detail}</div>
-                        </div>
                     </div>
                 ))}
             </div>

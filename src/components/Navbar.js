@@ -1,7 +1,6 @@
 import React from 'react';
-// import { Link } from 'react-router-dom';
+import { Link } from 'react-scroll';
 import "./navbar.css";
-
 
 function Navbar() {
   return (
@@ -10,14 +9,14 @@ function Navbar() {
         Prakhar Vaish
       </div>
       <div className='navlinks'>
-        <a href="#" className="navlink">Home</a>
-        <a href="#projects" className="navlink">Projects</a>
-        <a href="#skills" className="navlink">Skills</a>
-        <a href="#education" className="navlink">Education</a>
-        <a href="#contact" className="navlink">Contact</a>
+        <Link activeClass="active" to="home" spy={true} smooth={true} duration={500} className="navlink">Home</Link>
+        <Link activeClass="active" to="skills" spy={true} smooth={true}  duration={500} className="navlink">Skills</Link>
+        <Link activeClass="active" to="projects" spy={true} smooth={true} duration={500} className="navlink">Projects</Link>
+        <Link activeClass="active" to="education" spy={true} smooth={true} duration={500} className="navlink">Education</Link>
+        <Link activeClass="active" to="contact" spy={true} smooth={true} duration={500} className="navlink">Contact</Link>
       </div>
     </div>
   )
 }
 
-export default Navbar
+export default Navbar;

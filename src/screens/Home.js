@@ -8,14 +8,14 @@ import Typewriter from 'typewriter-effect';
 
 function Home() {
     return (
-        <div id="home" className='home section'>
+        <div id="home" className='section'>
             <div className='info'>
                 <div><p className="sub-heading">Hello</p><p className="sub-heading" style={{ color: "aqua" }}> I'm</p></div>
                 <h1 className="heading">Prakhar Vaish</h1>
                 <h3 className="sub-heading">
                     <Typewriter
                         options={{
-                            strings: ['Frontend Developer', 'Software Developer','Web Developer'],
+                            strings: ['Frontend Developer', 'Software Developer', 'Web Developer'],
                             autoStart: true,
                             loop: true,
                         }}
@@ -31,16 +31,16 @@ function Home() {
                 <div className="social-media">Connect:
                     <a href="https://linkedin.com/in/vaishprakhar19">
                         <div className="hexagon"><FaLinkedin /></div>
-                        </a>
+                    </a>
                     <a href="https://github.com/vaishprakhar19">
-                    <div className="hexagon"><FaGithub /></div>
-                        </a>
+                        <div className="hexagon"><FaGithub /></div>
+                    </a>
                     <a href="mailto:vaishprakhar19@gmail.com">
-                    <div className="hexagon"><IoMdMail /></div>
-                        </a>
+                        <div className="hexagon"><IoMdMail /></div>
+                    </a>
                 </div>
+                <img className="profile" src={profilePic} alt="profile"></img>
             </div>
-            <img className="profile" src={profilePic} alt="profile"></img>
         </div>
     )
 }

@@ -1,4 +1,3 @@
-// import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './App.css';
 import Navbar from './components/Navbar';
 import Home from './screens/Home';
@@ -11,18 +10,14 @@ function App() {
 
   return (
     <div className="App">
-      <Navbar />
-      <Home />
-      <Skills />
-      <Projects />
-      <Education />
-      <Contact />
-      {/* <BrowserRouter>
-        <Routes>
-          <Route path="/" Component={Home} />
-          <Route path="/skills" Component={Skills} />
-        </Routes>
-      </BrowserRouter> */}
+      {/* <div className="sections-container"> */}
+        <Navbar />
+        <Home />
+        <Skills />
+        <Projects />
+        <Education />
+        <Contact />
+      {/* </div> */}
     </div>
   );
 }
