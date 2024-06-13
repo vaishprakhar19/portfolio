@@ -8,7 +8,7 @@ import Typewriter from 'typewriter-effect';
 
 function Home() {
     return (
-        <div className='home section'>
+        <div id="home" className='home section'>
             <div className='info'>
                 <div><p className="sub-heading">Hello</p><p className="sub-heading" style={{ color: "aqua" }}> I'm</p></div>
                 <h1 className="heading">Prakhar Vaish</h1>
@@ -29,9 +29,15 @@ function Home() {
                     </span>
                 </button>
                 <div className="social-media">Connect:
-                    <div className="hexagon"><FaLinkedin /></div>
+                    <a href="https://linkedin.com/in/vaishprakhar19">
+                        <div className="hexagon"><FaLinkedin /></div>
+                        </a>
+                    <a href="https://github.com/vaishprakhar19">
                     <div className="hexagon"><FaGithub /></div>
+                        </a>
+                    <a href="mailto:vaishprakhar19@gmail.com">
                     <div className="hexagon"><IoMdMail /></div>
+                        </a>
                 </div>
             </div>
             <img className="profile" src={profilePic} alt="profile"></img>

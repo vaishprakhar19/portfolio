@@ -8,14 +8,14 @@ const Contact = () => {
             <p className='sub-heading center'>Here's how you can contact me: </p>
             <div class='fb-form'>
                 <div class="form-container">
-                    <form class="form">
+                    <form class="form" action="https://formbold.com/s/oz8mY" method="POST">
                         <div class="form-group">
-                            <label for="email">Company Email</label>
-                            <input type="text" id="email" name="email" required="" />
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required="" />
                         </div>
                         <div class="form-group">
-                            <label for="textarea">How Can We Help You?</label>
-                            <textarea name="textarea" id="textarea" rows="10" cols="50" required=""></textarea>
+                            <label for="textarea">How May I Help You?</label>
+                            <textarea name="feedback" id="textarea" rows="10" cols="50" required=""></textarea>
                         </div>
                         <button class="cssbuttons-io" type="submit">
                             <span>

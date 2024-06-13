@@ -1,0 +1,78 @@
+[
+  {
+    "id": 1,
+    "link": "https://we-connectt.vercel.app/",
+    "image": "image-url-1.jpg",
+    "techStack": [
+      "React",
+      "Node",
+      "MongoDb",
+      "Socket.io",
+      "Render",
+      "Vercel"
+    ],
+    "heading": "WeConnect",
+    "date": "Jan 2024 - Feb 2024",
+    "detail": "WeConnect is a social media app that lets you connect with your peers and family. It allows websocket based realtime chat communication using Socket.io."
+  },
+  {
+    "id": 2,
+    "link": "https://anotherproject.vercel.app/",
+    "image": "image-url-2.jpg",
+    "techStack": [
+      "Angular",
+      "Firebase"
+    ],
+    "heading": "Another Project",
+    "date": "Mar 2024 - Apr 2024",
+    "detail": "Another Project is an example project that demonstrates the use of Angular and Firebase."
+  },
+  {
+    "id": 2,
+    "link": "https://anotherproject.vercel.app/",
+    "image": "image-url-2.jpg",
+    "techStack": [
+      "Angular",
+      "Firebase"
+    ],
+    "heading": "Another Project",
+    "date": "Mar 2024 - Apr 2024",
+    "detail": "Another Project is an example project that demonstrates the use of Angular and Firebase."
+  },
+  {
+    "id": 2,
+    "link": "https://anotherproject.vercel.app/",
+    "image": "image-url-2.jpg",
+    "techStack": [
+      "Angular",
+      "Firebase"
+    ],
+    "heading": "Another Project",
+    "date": "Mar 2024 - Apr 2024",
+    "detail": "Another Project is an example project that demonstrates the use of Angular and Firebase."
+  },
+  {
+    "id": 2,
+    "link": "https://anotherproject.vercel.app/",
+    "image": "image-url-2.jpg",
+    "techStack": [
+      "Angular",
+      "Firebase"
+    ],
+    "heading": "Another Project",
+    "date": "Mar 2024 - Apr 2024",
+    "detail": "Another Project is an example project that demonstrates the use of Angular and Firebase."
+  },
+  {
+    "id": 2,
+    "link": "https://anotherproject.vercel.app/",
+    "image": "image-url-2.jpg",
+    "techStack": [
+      "Angular",
+      "Firebase"
+    ],
+    "heading": "Another Project",
+    "date": "Mar 2024 - Apr 2024",
+    "detail": "Another Project is an example project that demonstrates the use of Angular and Firebase."
+  }
+]
