@@ -45,13 +45,15 @@
 }
 
 .tech-stack-container {
-    width: 100%;
+    width: 15em;
+    height:50px;
+    overflow: hidden;
     display: flex;
     flex-wrap: wrap;
     gap: 8px;
     margin-top: 4px;
     -webkit-box-align: center;
-    align-items: center;
+    align-items: flex-start;
 }
 
 .tech-stack {
@@ -62,6 +64,8 @@
     border-radius: 10px;
     border: 1px solid rgba(31, 81, 255, 0.6);
     background: rgba(31, 81, 255, 0.6);
+    height:21px;
+    line-height: 15px;
 }
 
 .project-heading {
@@ -101,5 +105,5 @@
     -webkit-box-orient: vertical;
     display: -webkit-box;
     margin: 10px 0px;
-    width: 100%;
+    width: 15em;
 }

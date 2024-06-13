@@ -1,78 +1,107 @@
 [
   {
-    "id": 1,
-    "link": "https://we-connectt.vercel.app/",
-    "image": "image-url-1.jpg",
+    "id": 3,
+    "link": "https://github.com/vaishprakhar19/sms",
+    "image": "image-url-3.jpg",
     "techStack": [
       "React",
+      "SQL",
+      "Axios",
+      "Firebase",
+      "Express",
+      "Node"
+    ],
+    "heading": "Student Portal BIAS",
+    "date": "Jun 2024 - Jun 2024",
+    "detail": "A student portal for our own college, Full Stack project made with React, SQL, Axios, Firebase, Express, Node."
+  },
+  {
+    "id": 4,
+    "link": "https://github.com/vaishprakhar19/Student-Attendance-Management-System-main",
+    "image": "image-url-4.jpg",
+    "techStack": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Firebase"
+    ],
+    "heading": "Attendance Management System",
+    "date": "Jun 2024 - Jun 2024",
+    "detail": "Attendance taking and examining current attendance percentage of all students in class by admin, made using HTML, CSS, JavaScript and Firebase Database."
+  },
+  {
+    "id": 5,
+    "link": "https://github.com/vaishprakhar19/student_portal",
+    "image": "image-url-5.jpg",
+    "techStack": [
+      "React",
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Firebase"
+    ],
+    "heading": "Student Portal",
+    "date": "May 2022 - Jul 2022",
+    "detail": "A student portal, ReactJS and Firebase Auth."
+  },
+  {
+    "id": 6,
+    "link": "https://github.com/vaishprakhar19/chatbox",
+    "image": "image-url-6.jpg",
+    "techStack": [
+      "ReactJS",
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Firebase"
+    ],
+    "heading": "Chatbox",
+    "date": "Nov 2023 - Present",
+    "detail": "A chat application in React JS with Database Connectivity and Google Authentication using Firebase."
+  },
+  {
+    "id": 7,
+    "link": "https://github.com/bhatiag41/UKrafts",
+    "image": "image-url-7.jpg",
+    "techStack": [
+      "ReactJS",
+      "HTML",
+      "CSS",
+      "JavaScript"
+    ],
+    "heading": "UKrafts E-commerce Platform",
+    "date": "Jan 2024 - Present",
+    "detail": "An E-commerce Platform Frontend Web App, using React JS."
+  },
+  {
+    "id": 8,
+    "link": "https://github.com/akankshaajoshi/library-management-system",
+    "image": "image-url-8.jpg",
+    "techStack": [
+      "React",
+      "Express",
+      "MongoDB",
+      "Mongoose",
       "Node",
-      "MongoDb",
-      "Socket.io",
-      "Render",
-      "Vercel"
+      "HTML",
+      "CSS",
+      "JavaScript"
     ],
-    "heading": "WeConnect",
-    "date": "Jan 2024 - Feb 2024",
-    "detail": "WeConnect is a social media app that lets you connect with your peers and family. It allows websocket based realtime chat communication using Socket.io."
+    "heading": "Library Management System",
+    "date": "Nov 2023 - Present",
+    "detail": "A Library Management System for our College, Full Stack, Using MERN."
   },
   {
-    "id": 2,
-    "link": "https://anotherproject.vercel.app/",
-    "image": "image-url-2.jpg",
+    "id": 9,
+    "link": "https://github.com/vaishprakhar19/portfolio",
+    "image": "image-url-9.jpg",
     "techStack": [
-      "Angular",
-      "Firebase"
+      "React",
+      "HTML",
+      "CSS"
     ],
-    "heading": "Another Project",
-    "date": "Mar 2024 - Apr 2024",
-    "detail": "Another Project is an example project that demonstrates the use of Angular and Firebase."
-  },
-  {
-    "id": 2,
-    "link": "https://anotherproject.vercel.app/",
-    "image": "image-url-2.jpg",
-    "techStack": [
-      "Angular",
-      "Firebase"
-    ],
-    "heading": "Another Project",
-    "date": "Mar 2024 - Apr 2024",
-    "detail": "Another Project is an example project that demonstrates the use of Angular and Firebase."
-  },
-  {
-    "id": 2,
-    "link": "https://anotherproject.vercel.app/",
-    "image": "image-url-2.jpg",
-    "techStack": [
-      "Angular",
-      "Firebase"
-    ],
-    "heading": "Another Project",
-    "date": "Mar 2024 - Apr 2024",
-    "detail": "Another Project is an example project that demonstrates the use of Angular and Firebase."
-  },
-  {
-    "id": 2,
-    "link": "https://anotherproject.vercel.app/",
-    "image": "image-url-2.jpg",
-    "techStack": [
-      "Angular",
-      "Firebase"
-    ],
-    "heading": "Another Project",
-    "date": "Mar 2024 - Apr 2024",
-    "detail": "Another Project is an example project that demonstrates the use of Angular and Firebase."
-  },
-  {
-    "id": 2,
-    "link": "https://anotherproject.vercel.app/",
-    "image": "image-url-2.jpg",
-    "techStack": [
-      "Angular",
-      "Firebase"
-    ],
-    "heading": "Another Project",
-    "date": "Mar 2024 - Apr 2024",
-    "detail": "Another Project is an example project that demonstrates the use of Angular and Firebase."
+    "heading": "Portfolio Website",
+    "date": "Apr 2024 - Present",
+    "detail": "A portfolio website in React."
   }
 ]
