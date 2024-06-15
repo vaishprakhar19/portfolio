@@ -2,7 +2,7 @@
   {
     "id": 3,
     "link": "https://github.com/vaishprakhar19/sms",
-    "image": "image-url-3.jpg",
+    "image": "../resources/sms.png",
     "techStack": [
       "React",
       "SQL",

@@ -1,7 +1,7 @@
 import React from 'react';
 import "./projects.css";
 import projectsData from '../components/projects.json';
-import profileimage from '../resources/profile.png'
+// import profileimage from '../resources/profile.png';
 
 const Projects = () => {
     return (
@@ -13,7 +13,7 @@ const Projects = () => {
                 {projectsData.map(project => (
                     <div key={project.id} className="project">
                         <a href={project.link} target="_new" className='hyperlink'>
-                            <img src={profileimage} className="project-image" alt={project.heading} />
+                            <img src={project.image} className="project-image" alt={project.heading} />
                             <div className="tech-stack-container">
                                 {project.techStack.map((tech, index) => (
                                     <span key={index} className="tech-stack">{tech}</span>
