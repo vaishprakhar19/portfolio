@@ -74,24 +74,6 @@
     "detail": "An E-commerce Platform Frontend Web App, using React JS."
   },
   {
-    "id": 8,
-    "link": "https://github.com/akankshaajoshi/library-management-system",
-    "image": "image-url-8.jpg",
-    "techStack": [
-      "React",
-      "Express",
-      "MongoDB",
-      "Mongoose",
-      "Node",
-      "HTML",
-      "CSS",
-      "JavaScript"
-    ],
-    "heading": "Library Management System",
-    "date": "Nov 2023 - Present",
-    "detail": "A Library Management System for our College, Full Stack, Using MERN."
-  },
-  {
     "id": 9,
     "link": "https://github.com/vaishprakhar19/portfolio",
     "image": "image-url-9.jpg",
