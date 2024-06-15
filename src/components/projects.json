@@ -7,13 +7,14 @@
       "React",
       "SQL",
       "Axios",
-      "Firebase", 
+      "Firebase",
       "Express",
       "Node"
     ],
     "heading": "Student Portal BIAS",
-    "date": "Jun 2024 - Jun 2024",
-    "detail": "A student portal for our own college, Full Stack project made with React, SQL, Axios, Firebase, Express, Node."
+    "date": "Jun 2024 - Present",
+    "detail": "A student portal for our own college, Full Stack project made with React, SQL, Axios, Firebase, Express, Node.",
+    "team": true
   },
   {
     "id": 4,
@@ -26,8 +27,9 @@
       "Firebase"
     ],
     "heading": "Attendance Management System",
-    "date": "Jun 2024 - Jun 2024",
-    "detail": "Attendance taking and examining current attendance percentage of all students in class by admin, made using HTML, CSS, JavaScript and Firebase Database."
+    "date": "Jun 2024",
+    "detail": "Attendance taking and examining current attendance percentage of all students in class by admin, made using HTML, CSS, JavaScript and Firebase Database.",
+    "team": false
   },
   {
     "id": 5,
@@ -42,7 +44,8 @@
     ],
     "heading": "Student Portal",
     "date": "May 2022 - Jul 2022",
-    "detail": "A student portal, ReactJS and Firebase Auth."
+    "detail": "A student portal for showing important documents using ReactJS and Firebase Auth.",
+    "team": true
   },
   {
     "id": 6,
@@ -57,7 +60,8 @@
     ],
     "heading": "Chatbox",
     "date": "Nov 2023 - Present",
-    "detail": "A chat application in React JS with Database Connectivity and Google Authentication using Firebase."
+    "detail": "A chat application in React JS with Database Connectivity and Google Authentication using Firebase.",
+    "team": false
   },
   {
     "id": 7,
@@ -71,19 +75,23 @@
     ],
     "heading": "UKrafts E-commerce Platform",
     "date": "Jan 2024 - Present",
-    "detail": "An E-commerce Platform Frontend Web App, using React JS."
+    "detail": "An E-commerce Platform Frontend Web App, using React JS.",
+    "team": true
   },
   {
     "id": 9,
-    "link": "https://github.com/vaishprakhar19/portfolio",
-    "image": "image-url-9.jpg",
+    "link": "https://github.com/akankshaajoshi/eco-savvy",
+    "image": "../../resources/ecosavvy.png",
     "techStack": [
       "React",
       "HTML",
-      "CSS"
+      "CSS",
+      "Bootstrap",
+      "Wireframe"
     ],
-    "heading": "Portfolio Website",
-    "date": "Apr 2024 - Present",
-    "detail": "A portfolio website in React."
+    "heading": "EcoSavvy",
+    "date": "Apr 2023",
+    "detail": "EcoSavvy is a sustainable development-based information and product webapp.",
+    "team": true
   }
 ]

@@ -1,13 +1,12 @@
 import React from 'react';
 import "./projects.css";
 import projectsData from '../components/projects.json';
+import { RiTeamFill } from "react-icons/ri";
 // import profileimage from '../resources/profile.png'
 
 const Projects = () => {
-    console.log(projectsData[0].image);
     return (
         <div id="projects" className='section'>
-            <img src={projectsData[0].image} className="project-image" />
             <h2 className='heading'>Projects</h2>
             <p className='sub-heading center'>Here are some of my significant projects</p>
 
@@ -27,6 +26,7 @@ const Projects = () => {
                                 <div className="project-detail">{project.detail}</div>
                             </div>
                         </a>
+                        {project.team && <RiTeamFill className='team-icon'/>}
                     </div>
                 ))}
             </div>
