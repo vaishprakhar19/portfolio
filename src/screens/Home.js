@@ -1,10 +1,10 @@
 import React from 'react';
 import './home.css';
-import profilePic from '../resources/profilepic2.png';
 import { FaLinkedin, FaGithub } from "react-icons/fa";
 import { IoMdMail } from "react-icons/io";
 import { HiOutlineDocumentText } from "react-icons/hi2";
 import Typewriter from 'typewriter-effect';
+const profilePic = process.env.PUBLIC_URL +'/resources/profilepic2.png';
 
 function Home() {
     return (

@@ -2,12 +2,12 @@
   {
     "id": 3,
     "link": "https://github.com/vaishprakhar19/sms",
-    "image": "../resources/sms.png",
+    "image": "../../resources/sms.png",
     "techStack": [
       "React",
       "SQL",
       "Axios",
-      "Firebase",
+      "Firebase", 
       "Express",
       "Node"
     ],
@@ -18,7 +18,7 @@
   {
     "id": 4,
     "link": "https://github.com/vaishprakhar19/Student-Attendance-Management-System-main",
-    "image": "image-url-4.jpg",
+    "image": "../../resources/ams.png",
     "techStack": [
       "HTML",
       "CSS",
@@ -32,7 +32,7 @@
   {
     "id": 5,
     "link": "https://github.com/vaishprakhar19/student_portal",
-    "image": "image-url-5.jpg",
+    "image": "../../resources/student_portal.png",
     "techStack": [
       "React",
       "HTML",

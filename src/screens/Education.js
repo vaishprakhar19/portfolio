@@ -1,7 +1,7 @@
 import React from 'react';
 import "./education.css";
-import birlaLogo from "../resources/birla_logo.jpg";
-import RLBLogo from "../resources/rlb_logo.png";
+const birlaLogo = process.env.PUBLIC_URL +"/resources/birla_logo.jpg";
+const RLBLogo = process.env.PUBLIC_URL +"/resources/rlb_logo.png";
 
 const Education = () => {
     return (
