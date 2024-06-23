@@ -15,7 +15,7 @@ const Education = () => {
                     <div class="timeline-circle"></div>
                 </div>
                 <div class="timeline-component timeline-content">
-                    <img className="institute-logo" src={birlaLogo}/>
+                    <img className="institute-logo" src={birlaLogo} alt="institute-name"/>
                     <p className='project-heading'>Birla Institute of Applied Sciences, Bhimtal</p>
                     <p className='project-detail'>Bachelor of Technology in Computer Science and Engineering</p>
                     <p className='project-date'>Oct 2021 - Aug 2025</p>
@@ -23,7 +23,7 @@ const Education = () => {
                     <p style={{color:"white", marginTop:"15px"}}>Grade: 80.40%</p>
                 </div>
                 <div class="timeline-component timeline-content">
-                    <img className="institute-logo" src={RLBLogo}/>
+                    <img className="institute-logo" src={RLBLogo} alt="institute-name"/>
                     <p className='project-heading'>Rani Laxmi Bai Memorial School, Lucknow</p>
                     <p className='project-detail'>CBSE(XII), All India Senior Secondary Examination</p>
                     <p className='project-date'>Oct 2021 - Aug 2025</p>
@@ -44,7 +44,7 @@ const Education = () => {
                     <div class="timeline-circle"></div>
                 </div>
                 <div class="timeline-component timeline-content">
-                    <img className="institute-logo" src={RLBLogo}/>
+                    <img className="institute-logo" src={RLBLogo} alt="institute-name"/>
                     <p className='project-heading'>Rani Laxmi Bai Memorial School, Lucknow</p>
                     <p className='project-detail'>CBSE(X), All India Secondary Examination</p>
                     <p className='project-date'>Oct 2021 - Aug 2025</p>
