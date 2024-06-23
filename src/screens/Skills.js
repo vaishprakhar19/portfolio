@@ -1,6 +1,6 @@
 import React from 'react'
 import './skills.css';
-import { HiOutlineDocumentText } from "react-icons/hi2";
+// import { HiOutlineDocumentText } from "react-icons/hi2";
 import { IoLogoJavascript } from "react-icons/io5";
 import { FaReact } from "react-icons/fa";
 import { FaHtml5 } from "react-icons/fa";
