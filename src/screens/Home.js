@@ -4,7 +4,8 @@ import { FaLinkedin, FaGithub } from "react-icons/fa";
 import { IoMdMail } from "react-icons/io";
 import { HiOutlineDocumentText } from "react-icons/hi2";
 import Typewriter from 'typewriter-effect';
-const profilePic = process.env.PUBLIC_URL +'/resources/profilepic2.png';
+const profilePic = process.env.PUBLIC_URL + '/resources/profilepic2.png';
+const waveBG = process.env.PUBLIC_URL + '/resources/wave-bg.svg';
 
 function Home() {
     return (
@@ -40,6 +41,8 @@ function Home() {
                     </a>
                 </div>
                 <img className="profile" src={profilePic} alt="profile"></img>
+                <img className="wave-bg" src={waveBG} alt="profile"></img>
+                
             </div>
         </div>
     )

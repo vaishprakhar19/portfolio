@@ -22,6 +22,7 @@
     right:100px;
     width: 29%;
     filter: drop-shadow(0px 0px 20px aqua);
+    z-index: -21;
 }
 
 .heading {
@@ -121,4 +122,27 @@
     display: flex;
     gap: 20px;
     align-items: center;
+}
+
+#home p{
+    margin-bottom: 20px;
+}
+.wave-bg{
+    width:100vw;
+    height:100v;
+    position: fixed;
+    left:0px;
+    bottom: 0px;
+    z-index: -20;
+
+}
+
+@media screen and (max-width: 768px) {
+    .info{
+        padding-top: 0px;
+        width:100%;
+    }
+    .cssbuttons-io{
+        width:100%;
+    }
 }
