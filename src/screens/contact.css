@@ -66,12 +66,12 @@
 
 .form-container .form-group input:focus {
     outline: none;
-    border-color: aqua;
+    border-color: var(--light);
 }
 
 .form-container .form-group textarea:focus {
     outline: none;
-    border-color: aqua;
+    border-color: var(--light);
 }
 
 .form-container .form-submit-btn {

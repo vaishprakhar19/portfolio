@@ -7,13 +7,13 @@
 }
 
 body {
-    /* background:url("../public/resources/wave-bg.svg");
+    background:url("../public/resources/wave-bg.svg");
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: 0% 100% ; */
-    background-color: #002233;
-
+    background-position: 0% 80% ;
+    background-color: var(--dark);
+    
 }
 .sections-container{
     /* scroll-behavior: smooth; */
@@ -29,6 +29,7 @@ body {
 .section{
     width:100%;
     height: auto;
+    min-height: 100vh;
     /* scroll-snap-align: start; */
     padding: 80px 10%;
 }
@@ -39,4 +40,8 @@ h2{
 }
 
 @media screen and (max-width: 768px) {
+    body{
+        background-size:200%;
+        background-position: 50% 100% ;
+    }
 }

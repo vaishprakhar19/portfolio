@@ -1,7 +1,7 @@
 .card {
     width: 350px;
     height: 450px;
-    background-image: linear-gradient(163deg, aqua 0%, #3700ff 100%);
+    background-image: linear-gradient(163deg, var(--light) 0%, var(--mid) 100%);
     border-radius: 20px;
     transition: all .3s;
     box-shadow: 0px 0px 30px 1px rgba(0, 255, 117, 0.30);
@@ -10,7 +10,7 @@
 .card2 {
     width: 100%;
     height: 450px;
-    background-color: rgb(11, 35, 51);
+    background-color: var(--dark);
     transition: all .2s;
     color: white;
     transform: scale(0.98);

@@ -5,13 +5,12 @@ import { IoMdMail } from "react-icons/io";
 import { HiOutlineDocumentText } from "react-icons/hi2";
 import Typewriter from 'typewriter-effect';
 const profilePic = process.env.PUBLIC_URL + '/resources/profilepic2.png';
-const waveBG = process.env.PUBLIC_URL + '/resources/wave-bg.svg';
 
 function Home() {
     return (
         <div id="home" className='section'>
             <div className='info'>
-                <div><p className="sub-heading">Hello</p><p className="sub-heading" style={{ color: "aqua" }}> I'm</p></div>
+                <div><p className="sub-heading">Hello</p><p className="sub-heading" style={{ color: "var(--light)" }}> I'm</p></div>
                 <h1 className="heading">Prakhar Vaish</h1>
                 <h3 className="sub-heading">
                     <Typewriter
@@ -41,8 +40,6 @@ function Home() {
                     </a>
                 </div>
                 <img className="profile" src={profilePic} alt="profile"></img>
-                <img className="wave-bg" src={waveBG} alt="profile"></img>
-                
             </div>
         </div>
     )
