@@ -18,8 +18,8 @@
 
 .profile {
     position: absolute;
-    bottom:0;
-    right:100px;
+    bottom: 0;
+    right: 100px;
     width: 29%;
     filter: drop-shadow(0px 0px 20px var(--light));
     z-index: -21;
@@ -59,7 +59,7 @@
 }
 
 .cssbuttons-io {
-    width:16em;
+    width: 16em;
     position: relative;
     font-family: inherit;
     font-weight: 500;
@@ -107,6 +107,10 @@
     transform: skew(30deg);
     transition: transform 0.4s cubic-bezier(0.3, 1, 0.8, 1);
 }
+.cssbuttons-io:hover{
+    color:#000;
+}
+
 
 .cssbuttons-io:hover::before {
     transform: translate3d(100%, 0, 0);
@@ -124,19 +128,44 @@
     align-items: center;
 }
 
-#home p{
+#home p {
     margin-bottom: 20px;
 }
 
 @media screen and (max-width: 768px) {
-    .info{
+    .info {
         padding-top: 0px;
-        width:100%;
+        width: 100%;
     }
-    .cssbuttons-io{
-        width:100%;
+
+    .cssbuttons-io {
+        width: 100%;
     }
-    #home{
-        padding-top:80%;
+
+    #home {
+        padding-top: 85%;
     }
+
+    .social-media {
+        margin: 20px auto 0px auto;
+    }
+
+    .profile {
+        top: 17%;
+        left: 25%;
+        margin: 0px auto;
+        width: 13rem;
+        clip-path: circle(120px at 40% 20%);
+    }
+
+    /* .profile::before {
+        content: '';
+        width: 130px;
+        height: 130px;
+        border: 2px solid red;
+        border-radius: 50%;
+        background-color: aqua;
+        left: 0px;
+        z-index: 1;
+    } */
 }

@@ -10,9 +10,9 @@ function Home() {
     return (
         <div id="home" className='section'>
             <div className='info'>
-                <div><p className="sub-heading">Hello</p><p className="sub-heading" style={{ color: "var(--light)" }}> I'm</p></div>
-                <h1 className="heading">Prakhar Vaish</h1>
-                <h3 className="sub-heading">
+                <div data-aos="fade-right" data-aos-duration="1000"><p className="sub-heading">Hello</p><p className="sub-heading" style={{ color: "aqua" }}> I'm</p></div>
+                <h1 className="heading" data-aos="fade-right" data-aos-duration="1000">Prakhar Vaish</h1>
+                <h3 className="sub-heading"data-aos="fade-right" data-aos-duration="1000">
                     <Typewriter
                         options={{
                             strings: ['Frontend Developer', 'Software Developer', 'Web Developer'],
@@ -21,14 +21,14 @@ function Home() {
                         }}
                     /></h3>
 
-                <p>I'm a passionate web developer with a knack for crafting user-friendly and visually applealing websites, currently learning full stack.</p>
-                <button class="cssbuttons-io">
-                    <span>
+                <p data-aos="fade-right" data-aos-duration="1000">I'm a passionate web developer with a knack for crafting user-friendly and visually applealing websites, currently learning full stack.</p>
+                <button className="cssbuttons-io" data-aos="fade-up" data-aos-duration="1000">
+                    <span data-aos="fade-up" data-aos-duration="1000">
                         <HiOutlineDocumentText />
                         Resume
                     </span>
                 </button>
-                <div className="social-media">Connect:
+                <div data-aos="fade-up" data-aos-duration="1000" className="social-media">Connect:
                     <a href="https://linkedin.com/in/vaishprakhar19">
                         <div className="hexagon"><FaLinkedin /></div>
                     </a>
@@ -40,6 +40,7 @@ function Home() {
                     </a>
                 </div>
                 <img className="profile" src={profilePic} alt="profile"></img>
+                
             </div>
         </div>
     )

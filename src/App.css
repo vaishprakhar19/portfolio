@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Jost:wght@200;300;400&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -7,41 +8,65 @@
 }
 
 body {
-    background:url("../public/resources/wave-bg.svg");
+    /* background:url("../public/resources/wave-bg.svg");
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: 0% 80% ;
+    background-position: 0% 80% ; */
     background-color: var(--dark);
-    
+
 }
-.sections-container{
+
+.sections-container {
     /* scroll-behavior: smooth; */
     overflow-y: auto;
     overscroll-behavior: contain;
     /* scroll-snap-type: y mandatory; */
-    width:100%;
-    height:100vh;
+    width: 100%;
+    height: 100vh;
 }
-::-webkit-scrollbar{
+
+::-webkit-scrollbar {
     display: none;
 }
-.section{
-    width:100%;
+
+.section {
+    width: 100%;
     height: auto;
     min-height: 100vh;
     /* scroll-snap-align: start; */
     padding: 80px 10%;
 }
 
-h2{
+h2 {
     text-align: center;
-    color:white;
+    color: white;
+}
+
+#home {
+    background: url("../public/resources/wave-bg.svg");
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100% 70%;
+    background-color: var(--dark);
+}
+
+#skills {
+    margin-top:-1px;
+    background-color: var(--mid);
+    clip-path: polygon(0 0, 100% 0%, 100% 94%, 35% 100%, 0 94%);
+    padding-bottom: 11% ;
 }
 
 @media screen and (max-width: 768px) {
-    body{
-        background-size:200%;
-        background-position: 50% 100% ;
+    body {
+        background-size: 350%;
+        background-position: 60% 100%;
+    }
+    
+    #skills {
+        padding-bottom: 35% ;
+        clip-path: polygon(0 0, 100% 0%, 100% 98%, 30% 100%, 0 98%);
     }
 }

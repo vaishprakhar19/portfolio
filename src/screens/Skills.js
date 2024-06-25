@@ -23,35 +23,35 @@ export default function Skills() {
       <h2 className='heading'>Skills</h2>
       <p className='sub-heading center'>These are some of my noticable skills</p>
       <div className='card-container'>
-        <div class="card">
-          <div class="card2">
+        <div className="card">
+          <div className="card2">
             <p className='sub-heading'>Frontend</p>
             <div className='item-container'>
-              <button class="cssbuttons-io">
+              <button className="cssbuttons-io">
                 <span>
                   <FaReact />
                   ReactJs
                 </span>
               </button>
-              <button class="cssbuttons-io">
+              <button className="cssbuttons-io">
                 <span>
                   <FaHtml5 />
                   HTML
                 </span>
               </button>
-              <button class="cssbuttons-io">
+              <button className="cssbuttons-io">
                 <span>
                   <FaCss3Alt />
                   CSS
                 </span>
               </button>
-              <button class="cssbuttons-io">
+              <button className="cssbuttons-io">
                 <span>
                   <IoLogoJavascript />
                   JavaScript
                 </span>
               </button>
-              <button class="cssbuttons-io">
+              <button className="cssbuttons-io">
                 <span>
                   <FaBootstrap />
                   Bootstrap
@@ -60,41 +60,41 @@ export default function Skills() {
             </div>
           </div>
         </div>
-        <div class="card">
-          <div class="card2">
+        <div className="card">
+          <div className="card2">
             <p className='sub-heading'>Backend</p>
             <div className='item-container'>
-              <button class="cssbuttons-io">
+              <button className="cssbuttons-io">
                 <span>
                   <FaNode />
                   NodeJs
                 </span>
               </button>
-              <button class="cssbuttons-io">
+              <button className="cssbuttons-io">
                 <span>
                   <IoLogoNodejs />
                   ExpressJs
                 </span>
               </button>
-              <button class="cssbuttons-io">
+              <button className="cssbuttons-io">
                 <span>
                   <DiMysql />
                   SQL
                 </span>
               </button>
-              <button class="cssbuttons-io">
+              <button className="cssbuttons-io">
                 <span>
                   <SiAxios />
                   Axios
                 </span>
               </button>
-              <button class="cssbuttons-io">
+              <button className="cssbuttons-io">
                 <span>
                   <SiMongodb />
                   MongoDB
                 </span>
               </button>
-              <button class="cssbuttons-io">
+              <button className="cssbuttons-io">
                 <span>
                   <IoLogoFirebase />
                   Firebase
@@ -103,29 +103,29 @@ export default function Skills() {
             </div>
           </div>
         </div>
-        <div class="card">
-          <div class="card2">
+        <div className="card">
+          <div className="card2">
             <p className='sub-heading'>Other</p>
             <div className='item-container'>
-              <button class="cssbuttons-io">
+              <button className="cssbuttons-io">
                 <span>
                   <FaGithub />
                   Github
                 </span>
               </button>
-              <button class="cssbuttons-io">
+              <button className="cssbuttons-io">
                 <span>
                   {/* <VscVscode/> */}
                   VScode
                 </span>
               </button>
-              <button class="cssbuttons-io">
+              <button className="cssbuttons-io">
                 <span>
                   <FaJava />
                   Java
                 </span>
               </button>
-              <button class="cssbuttons-io">
+              <button className="cssbuttons-io">
                 <span>
                   <TbBrandCpp />
                   C++

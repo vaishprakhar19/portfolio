@@ -5,8 +5,15 @@ import Skills from './screens/Skills';
 import Contact from './screens/Contact';
 import Education from './screens/Education';
 import Projects from './screens/Projects';
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from 'react';
 
 function App() {
+  useEffect(() => {
+    AOS.init();
+    AOS.refresh();
+  }, []);
 
   return (
     <div className="App">

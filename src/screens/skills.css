@@ -1,3 +1,7 @@
+#skills h2{
+    color:var(--dark);
+}
+
 .card {
     width: 350px;
     height: 450px;
