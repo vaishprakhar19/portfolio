@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-scroll';
 import "./navbar.css";
+const logoPV = process.env.PUBLIC_URL + '/resources/PV.png';
 
 function Navbar() {
   const [showNavLinks, setShowNavLinks] = useState(false);
@@ -12,6 +13,7 @@ function Navbar() {
   return (
     <div className='navbar'>
       <div className="logo">
+        <img src={logoPV}></img>
         Prakhar Vaish
       </div>
       {/* Toggle button for small screens */}

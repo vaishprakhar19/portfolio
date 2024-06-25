@@ -45,7 +45,7 @@ h2 {
 
 #home {
     background: url("../public/resources/wave-bg.svg");
-    background-attachment: scroll;
+    /* background-attachment: ; */
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 100% 70%;
@@ -60,9 +60,9 @@ h2 {
 }
 
 @media screen and (max-width: 768px) {
-    body {
-        background-size: 350%;
-        background-position: 60% 100%;
+    #home {
+        background-size: 330%;
+        background-position: 60% 250%;
     }
     
     #skills {
