@@ -43,14 +43,13 @@ h2 {
     color: white;
 }
 
-#home {
+/* #home {
     background: url("../public/resources/wave-bg.svg");
-    /* background-attachment: ; */
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 100% 70%;
     background-color: var(--dark);
-}
+} */
 
 #skills {
     margin-top:-1px;
@@ -68,5 +67,8 @@ h2 {
     #skills {
         padding-bottom: 35% ;
         clip-path: polygon(0 0, 100% 0%, 100% 98%, 30% 100%, 0 98%);
+    }
+    .section{
+        padding:2.5rem;
     }
 }
