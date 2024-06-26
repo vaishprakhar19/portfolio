@@ -1,8 +1,8 @@
 .form-container {
-    width: 50%;
-    background: linear-gradient(rgb(9, 31, 46), rgb(11, 35, 51)) padding-box,
-        linear-gradient(145deg, transparent 35%, aqua, #40c9ff) border-box;
+    width: 100%;
     border: 2px solid transparent;
+    background-color: #002233a3;
+    backdrop-filter: blur(10px);
     padding: 32px 24px;
     font-size: 16px;
     font-family: inherit;
@@ -11,7 +11,17 @@
     flex-direction: column;
     gap: 20px;
     border-radius: 16px;
+}
+
+.fb-form {
+    /* background: linear-gradient(350deg, transparent 50%, var(--light), var(--mid)),
+    linear-gradient(170deg, transparent 60%, var(--dark), var(--mid))
+    ;
+    border-radius: 20px; */
+    width:50%;
     margin: 0px auto;
+    height:fit-content;
+    /* padding:4px; */
 }
 
 .form-container button:active {
@@ -45,7 +55,7 @@
     color: #fff;
     font-family: inherit;
     background-color: transparent;
-    border: 1px solid #c5c5c5;
+    border: 1px solid var(--mid);
 }
 
 .form-container .form-group textarea {
@@ -55,7 +65,7 @@
     resize: none;
     color: #fff;
     height: 96px;
-    border: 1px solid #c5c5c5;
+    border: 1px solid var(--mid);
     background-color: transparent;
     font-family: inherit;
 }
@@ -74,32 +84,9 @@
     border-color: var(--light);
 }
 
-.form-container .form-submit-btn {
-    display: flex;
-    align-items: flex-start;
-    justify-content: center;
-    align-self: flex-start;
-    font-family: inherit;
-    color: #fff;
-    font-weight: 600;
-    width: 40%;
-    background: #313131;
-    border: 1px solid #c5c5c5;
-    padding: 12px 16px;
-    font-size: inherit;
-    gap: 8px;
-    margin-top: 8px;
-    cursor: pointer;
-    border-radius: 6px;
-}
-
-.form-container .form-submit-btn:hover {
-    background-color: #505050;
-    border-color: #fff;
-}
 
 @media only screen and (max-width:768px) {
-    .form-container {
+    .fb-form {
         width: 100%;
     }
 }

@@ -31,21 +31,28 @@ body {
 }
 
 .section {
-    overflow:hidden;
+    overflow: hidden;
     width: 100vw;
     height: auto;
     min-height: 100vh;
     /* scroll-snap-align: start; */
     padding: 80px 10%;
     position: relative;
+    z-index: 1;
     /* background-color: brown; */
 }
 
-h2 {
+.section h2 {
     text-align: center;
     color: white;
+    position:relative;
+    z-index: 1;
 }
 
+.section .sub-heading{
+    position: relative;
+    z-index: 1;
+}
 /* #home {
     background: url("../public/resources/wave-bg.svg");
     background-repeat: no-repeat;
@@ -55,10 +62,35 @@ h2 {
 } */
 
 #skills {
-    margin-top:-1px;
+    margin-top: -1px;
     background-color: var(--mid);
     clip-path: polygon(0 0, 100% 0%, 100% 94%, 35% 100%, 0 94%);
-    padding-bottom: 11% ;
+    padding-bottom: 11%;
+}
+
+#education {
+    background: url("../public/resources/blob-bg.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 100% 100%;
+    background-color: var(--dark);
+}
+#contact {
+    background: url("../public/resources/peaks-bg.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 100% 100%;
+    background-color: var(--dark);
+}
+
+.blur {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    backdrop-filter: blur(5px);
+    z-index:0;
 }
 
 @media screen and (max-width: 768px) {
@@ -66,12 +98,25 @@ h2 {
         background-size: 330%;
         background-position: 60% 250%;
     }
-    
+
     #skills {
-        padding-bottom: 35% ;
+        padding-bottom: 35%;
         clip-path: polygon(0 0, 100% 0%, 100% 98%, 30% 100%, 0 98%);
     }
-    .section{
-        padding:2.5rem;
+
+    .section {
+        padding: 2.5rem;
+    }
+    /* .section:last-of-type{
+        margin-bottom:-100px;
+        height:calc(100vh - 200px);
+    } */
+    #education{
+        background-size:450% ;
+        background-position: 50% 0%;
+    }
+    #contact{
+        background-size:500% ;
+        background-position: 50% 100%;
     }
 }

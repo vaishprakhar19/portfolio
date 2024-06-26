@@ -10,7 +10,7 @@ function Home() {
     return (
         <div id="home" className='section'>
             <div className='info'>
-                <div data-aos="fade-right" data-aos-duration="1000"><p className="sub-heading">Hello</p><p className="sub-heading" style={{ color: "aqua" }}> I'm</p></div>
+                <div data-aos="fade-right" data-aos-duration="1000"><p className="sub-heading">Hello</p><p className="sub-heading" style={{ color: "var(--light)" }}> I'm</p></div>
                 <h1 className="heading" data-aos="fade-right" data-aos-duration="1000">Prakhar Vaish</h1>
                 <h3 className="sub-heading" data-aos="fade-right" data-aos-duration="1000">
                     <Typewriter
@@ -40,8 +40,8 @@ function Home() {
                     </a>
                 </div>
             </div>
-                <img className="profile" src={profilePic} alt="profile"></img>
-                <div className='hexagon profile-bg'></div>
+                <img className="profile" src={profilePic} alt="profile" data-aos="fade-down" data-aos-duration="1000" data-aos-offset="10"></img>
+                <div className='hexagon profile-bg' data-aos="fade-down" data-aos-duration="1000"></div>
                 <svg id="wave-bg" viewBox="0 0 900 600" width="900" height="600" xmlns="http://www.w3.org/2000/svg"
                     xlink="http://www.w3.org/1999/xlink" version="1.1">
 
