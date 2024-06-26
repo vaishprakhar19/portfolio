@@ -13,7 +13,7 @@ function Navbar() {
   return (
     <div className='navbar'>
       <div className="logo">
-        <img src={logoPV}></img>
+        <img src={logoPV} alt="PV"></img>
         Prakhar Vaish
       </div>
       {/* Toggle button for small screens */}
