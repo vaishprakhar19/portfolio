@@ -68,8 +68,8 @@
     color: rgb(245, 245, 245);
     padding: 2px 8px;
     border-radius: 10px;
-    border: 1px solid rgba(31, 81, 255, 0.6);
-    background: rgba(31, 81, 255, 0.6);
+    border: 1px solid var(--mid);
+    background: var(--mid);
     height:21px;
     line-height: 16px;
 }
