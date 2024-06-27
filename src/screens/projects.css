@@ -131,6 +131,7 @@
     .project {
         width: 100%;
         overflow: visible;
+        border-radius: 10px;
     }
     .project-heading {
         text-overflow: ellipsis;
