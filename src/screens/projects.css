@@ -1,5 +1,5 @@
-#projects {
-    height: fit-content;
+#projects h2{
+    color:var(--dark);
 }
 
 .projects-container {
@@ -9,19 +9,18 @@
     -webkit-box-align: center; */
     align-items: center;
     flex-wrap: wrap;
-    border-radius: 10px;
     /* padding:60px 0px; */
-    width:100%;
+    width: 100%;
 }
 
 .project:hover {
-    flex: 5;
+    flex: 2.5;
 }
 
 .project {
     width: 330px;
     height: 490px;
-    background-color: rgb(23, 23, 33);
+    background-color: var(--dark);
     cursor: pointer;
     border-radius: 10px 0px 0px 10px;
     box-shadow: rgba(0, 0, 0, 0.4) 0px 0px 12px 4px;
@@ -31,9 +30,13 @@
     display: flex;
     flex-direction: column;
     gap: 14px;
-    flex: 2;
+    flex: 1;
     margin-right: -5px;
     position: relative;
+}
+
+.project:last-of-type{
+    border-radius: 10px;
 }
 
 .project-image {
@@ -42,17 +45,18 @@
     background-color: rgb(255, 255, 255);
     border-radius: 10px;
     object-fit: cover;
-    box-shadow: rgba(0, 0, 0, 0.3) 0px 0px 16px 2px;
 }
-.team-icon{
+
+.team-icon {
     color: white;
     font-size: 30px;
-    position:absolute;
-  bottom: 15px;
+    position: absolute;
+    bottom: 15px;
 }
+
 .tech-stack-container {
     width: 15em;
-    height:50px;
+    height: 50px;
     overflow: hidden;
     display: flex;
     flex-wrap: wrap;
@@ -60,17 +64,18 @@
     margin-top: 4px;
     -webkit-box-align: center;
     align-items: flex-start;
+    margin-bottom: 10px;
 }
 
 .tech-stack {
     font-size: 12px;
     font-weight: 500;
-    color: rgb(245, 245, 245);
+    color: var(--dark);
     padding: 2px 8px;
     border-radius: 10px;
-    border: 1px solid var(--mid);
-    background: var(--mid);
-    height:21px;
+    border: 1px solid var(--light);
+    background: var(--light);
+    height: 21px;
     line-height: 16px;
 }
 
@@ -78,12 +83,10 @@
     font-size: 20px;
     font-weight: 600;
     color: rgb(245, 245, 245);
-    text-overflow: ellipsis;
-    overflow: hidden;
     white-space: nowrap;
-    max-width: 100%;
-    /* -webkit-line-clamp: 2;
-    -webkit-box-orient: vertical; */
+    /* text-overflow: ellipsis;
+    overflow: hidden;
+    max-width: 100%; */
 }
 
 .project-info {
@@ -107,25 +110,30 @@
     overflow: hidden;
     text-overflow: ellipsis;
     /* white-space: nowrap;  */
-    -webkit-line-clamp: 3; 
+    -webkit-line-clamp: 3;
     -webkit-box-orient: vertical;
     display: -webkit-box;
     margin: 10px 0px;
     width: 15em;
 }
 
-.hyperlink{
+.hyperlink {
     text-decoration: none;
 }
 
 @media screen and (max-width: 768px) {
-    .projects-container{
-        width:100%;
-        gap:40px;
+    .projects-container {
+        width: 100%;
+        gap: 40px;
         flex-wrap: wrap;
     }
-    .project{
-        width:100%;
-        overflow:visible;
+
+    .project {
+        width: 100%;
+        overflow: visible;
+    }
+    .project-heading {
+        text-overflow: ellipsis;
+        overflow: hidden;
     }
 }

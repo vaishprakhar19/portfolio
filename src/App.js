@@ -20,8 +20,8 @@ function App() {
       {/* <div className="sections-container"> */}
         <Navbar />
         <Home />
-        <Skills />
         <Projects />
+        <Skills />
         <Education />
         <Contact />
       {/* </div> */}

@@ -1,6 +1,5 @@
-import React from 'react'
+import React from 'react';
 import './skills.css';
-// import { HiOutlineDocumentText } from "react-icons/hi2";
 import { IoLogoJavascript } from "react-icons/io5";
 import { FaReact } from "react-icons/fa";
 import { FaHtml5 } from "react-icons/fa";
@@ -13,124 +12,104 @@ import { SiAxios } from "react-icons/si";
 import { SiMongodb } from "react-icons/si";
 import { IoLogoFirebase } from "react-icons/io5";
 import { FaGithub } from "react-icons/fa";
-// import { VscVscode } from "react-icons/vsc";
 import { FaJava } from "react-icons/fa";
 import { TbBrandCpp } from "react-icons/tb";
+import { FaFigma } from "react-icons/fa";
+import { TbBrandVscode } from "react-icons/tb";
 
 export default function Skills() {
   return (
     <div id="skills" className='section'>
+      <div className="blur"></div>
       <h2 className='heading'>Skills</h2>
-      <p className='sub-heading center'>These are some of my noticable skills</p>
-      <div className='card-container'>
-        <div className="card">
-          <div className="card2">
-            <p className='sub-heading'>Frontend</p>
-            <div className='item-container'>
-              <button className="cssbuttons-io">
-                <span>
-                  <FaReact />
-                  ReactJs
-                </span>
-              </button>
-              <button className="cssbuttons-io">
-                <span>
-                  <FaHtml5 />
-                  HTML
-                </span>
-              </button>
-              <button className="cssbuttons-io">
-                <span>
-                  <FaCss3Alt />
-                  CSS
-                </span>
-              </button>
-              <button className="cssbuttons-io">
-                <span>
-                  <IoLogoJavascript />
-                  JavaScript
-                </span>
-              </button>
-              <button className="cssbuttons-io">
-                <span>
-                  <FaBootstrap />
-                  Bootstrap
-                </span>
-              </button>
+      <p className='sub-heading center'>These are some of my noticeable skills</p>
+      <div className='skills-conatiner'>
+        <div className='hex-container'>
+          <h2 className='center'>Frontend</h2>
+          <div className='hex-layer-3'>
+            <div className='hexagon'>
+              <FaReact />
+              <span>ReactJs</span>
+            </div>
+            <div className='hexagon'>
+              <FaHtml5 />
+              <span>HTML</span>
+            </div>
+            <div className='hexagon'>
+              <FaCss3Alt />
+              <span>CSS</span>
+            </div>
+          </div>
+          <div className='hex-layer-2'>
+            <div className='hexagon'>
+              <IoLogoJavascript />
+              <span>JavaScript</span>
+            </div>
+            <div className='hexagon'>
+              <FaBootstrap />
+              <span>Bootstrap</span>
             </div>
           </div>
         </div>
-        <div className="card">
-          <div className="card2">
-            <p className='sub-heading'>Backend</p>
-            <div className='item-container'>
-              <button className="cssbuttons-io">
-                <span>
-                  <FaNode />
-                  NodeJs
-                </span>
-              </button>
-              <button className="cssbuttons-io">
-                <span>
-                  <IoLogoNodejs />
-                  ExpressJs
-                </span>
-              </button>
-              <button className="cssbuttons-io">
-                <span>
-                  <DiMysql />
-                  SQL
-                </span>
-              </button>
-              <button className="cssbuttons-io">
-                <span>
-                  <SiAxios />
-                  Axios
-                </span>
-              </button>
-              <button className="cssbuttons-io">
-                <span>
-                  <SiMongodb />
-                  MongoDB
-                </span>
-              </button>
-              <button className="cssbuttons-io">
-                <span>
-                  <IoLogoFirebase />
-                  Firebase
-                </span>
-              </button>
+
+        <div className='hex-container'>
+          <h2 className='center'>Backend</h2>
+          <div className='hex-layer-3'>
+            <div className='hexagon'>
+              <FaNode />
+              <span>NodeJs</span>
+            </div>
+            <div className='hexagon'>
+              <IoLogoNodejs />
+              <span>ExpressJs</span>
+            </div>
+            <div className='hexagon'>
+              <DiMysql />
+              <span>SQL</span>
+            </div>
+          </div>
+          <div className='hex-layer-2'>
+            <div className='hexagon'>
+              <SiAxios />
+              <span>Axios</span>
+            </div>
+            <div className='hexagon'>
+              <SiMongodb />
+              <span>MongoDB</span>
+            </div>
+          </div>
+          <div className='hex-layer-1'>
+            <div className='hexagon'>
+              <IoLogoFirebase />
+              <span>Firebase</span>
             </div>
           </div>
         </div>
-        <div className="card">
-          <div className="card2">
-            <p className='sub-heading'>Other</p>
-            <div className='item-container'>
-              <button className="cssbuttons-io">
-                <span>
-                  <FaGithub />
-                  Github
-                </span>
-              </button>
-              <button className="cssbuttons-io">
-                <span>
-                  {/* <VscVscode/> */}
-                  VScode
-                </span>
-              </button>
-              <button className="cssbuttons-io">
-                <span>
-                  <FaJava />
-                  Java
-                </span>
-              </button>
-              <button className="cssbuttons-io">
-                <span>
-                  <TbBrandCpp />
-                  C++
-                </span>
-              </button>
+
+        <div className='hex-container'>
+          <h2 className='center'>Others</h2>
+          <div className='hex-layer-3'>
+            <div className='hexagon'>
+              <FaJava />
+              <span>Java</span>
+            </div>
+            <div className='hexagon'>
+              <TbBrandCpp />
+              <span>C++</span>
+            </div>
+            <div className='hexagon'>
+              <FaFigma />
+              <span>Figma</span>
+            </div>
+          </div>
+          <div className='hex-layer-2'>
+            <div className='hexagon'>
+              <FaGithub />
+              <span>Github</span>
+            </div>
+            <div className='hexagon'>
+              <TbBrandVscode />
+              <span>VScode</span>
             </div>
           </div>
         </div>

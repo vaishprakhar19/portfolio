@@ -23,8 +23,8 @@ function Navbar() {
       {/* Navlinks */}
       <div className={`navlinks ${showNavLinks ? 'show' : ''}`}>
         <Link activeClass="active" to="home" spy={true} smooth={true} duration={500} className="navlink">Home</Link>
-        <Link activeClass="active" to="skills" spy={true} smooth={true} duration={500} className="navlink">Skills</Link>
         <Link activeClass="active" to="projects" spy={true} smooth={true} duration={500} className="navlink">Projects</Link>
+        <Link activeClass="active" to="skills" spy={true} smooth={true} duration={500} className="navlink">Skills</Link>
         <Link activeClass="active" to="education" spy={true} smooth={true} duration={500} className="navlink">Education</Link>
         <Link activeClass="active" to="contact" spy={true} smooth={true} duration={500} className="navlink">Contact</Link>
       </div>

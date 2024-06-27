@@ -34,7 +34,13 @@
     height: 50px;
     width: 50px;
     background-color: var(--light);
-    clip-path: polygon(50% 0, 94% 25%, 94% 75%, 50% 100%, 6% 75%, 6% 26%);
+    -webkit-clip-path: polygon(50% 0%,
+            95% 25%,
+            95% 75%,
+            50% 100%,
+            5% 75%,
+            5% 25%);
+    clip-path: polygon(50% 0%, 95% 25%, 95% 75%, 50% 100%, 5% 75%, 5% 25%);
     border-radius: 50px;
     cursor: pointer;
     display: flex;
@@ -43,6 +49,8 @@
     font-size: 25px;
     color: rgb(11, 35, 51);
     transition: 0.2s;
+    flex-direction: column;
+    gap:5px;
 }
 
 .hexagon:hover {
